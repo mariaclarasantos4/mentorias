@@ -1,0 +1,33 @@
+Ao compreender que além dos tipos primitivos de dados, o Java
+oferece os tipos de referência (classes) correspondentes a todos os
+tipos primitivos, pesquise e identifique um método que lhes chame a
+atenção em cada classe dos tipos Wrapper: Integer, Double,
+Character, Boolean e String.
+Ao final implemente um pequeno algoritmo que utilize pelo
+menos três dos métodos pesquisados.
+
+import java.util.Scanner;
+
+public class TesteWrappers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Entrada com espaços
+        System.out.print("Digite um número inteiro com espaços: ");
+        String entrada = scanner.nextLine();
+
+        // Remove espaços com trim()
+        entrada = entrada.trim();
+
+        // Verifica se o primeiro caractere é um dígito
+        if (Character.isDigit(entrada.charAt(0))) {
+            // Converte a string para int
+            int numero = Integer.parseInt(entrada);
+            System.out.println("Número convertido com sucesso: " + numero);
+        } else {
+            System.out.println("Entrada inválida: não começa com um dígito.");
+        }
+
+        scanner.close();
+    }
+}
