@@ -1,0 +1,46 @@
+Questão 01: Cálculo de Área e Perímetro
+
+Escreva um programa em Java que declare duas variáveis para
+armazenar a base e a altura de um retângulo (em valores decimais).
+Em seguida, crie outras variáveis para calcular e armazenar:
+
+ A área do retângulo (base × altura).
+ O perímetro do retângulo (2 × (base + altura)).
+public class Retangulo {
+    public static void main(String[] args)  {
+         double base = 5.0;
+         double altura = 3.0;
+
+         double area = base * altura;
+         double perimetro = 2 * (base + 
+altura);
+
+         System.out.printlin("Área do retângulo:
+" + area);
+         System.out.printlin("Perimetro do
+retâgulo: " + perimetro);
+   }
+}
+Observação: Exiba os resultados das variáveis no console.
+
+Questão 02: Comparação de Idades
+
+Declare duas variáveis para armazenar as idades de duas pessoas.
+Em seguida, crie uma terceira variável para armazenar o resultado de
+uma comparação que indique se a primeira pessoa é mais velha que
+a segunda.
+Exiba no console a mensagem: "A primeira pessoa é mais velha:
+true" ou "A primeira pessoa é mais velha: false".
+
+public class ComparacaoIdades  {
+    public static void main (String[] args) {
+        int idadePessoa1 = 25;
+        int idadePessoa2 = 30;
+
+        boolean pessoa1MaiaVelha = 
+idadePessoa1 > idadePessoa2;
+
+        System.out.printlin("A primeira pessoa
+é mais velha: " + pessoa1MaisVelha);
+    }
+}
