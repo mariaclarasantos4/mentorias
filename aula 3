@@ -1,0 +1,51 @@
+Questão-Problema 01: Cadastro de Aluno
+
+Um sistema de cadastro de alunos precisa armazenar as seguintes
+informações: o nome completo do aluno, sua idade, sua altura (em
+metros) e se ele está matriculado ou não.
+
+ Quais variáveis devem ser criadas?
+  nome_completo:Nome do aluno
+  idade: Idade do aluno 
+  altura: altura do aluno (em metros)
+  matriculado: Indica se o aluno está matriculado
+ Quais tipos de dados cada uma delas deve ter?
+  nome_completo: string
+  idade: inteiro(int)
+  altura: ponto flutuante (float)
+  matriculado: booleano (bool)
+Questão-Problema 02: Informações de Produto
+
+Você foi contratado para criar um programa que registre informações
+de um produto. O programa deve armazenar: o nome do produto, sua
+quantidade em estoque, o preço unitário e se ele está disponível para
+venda.
+
+ Identifique as variáveis necessárias.
+  nome_produto: nome do produto
+  quantidade_estoque: quantidade em estoque 
+  preco_unitario: preco unitario
+  disponivel_para_venda: indica se esta disponivel para venda
+ Determine os tipos de dados adequados para cada uma.
+  nome_produto: string
+  quantidade_estoque: inteiro(int)
+  preco_unitario: ponto flutuante(float)
+  disponivel_para_venda: booelano(bool)
+Questão-Problema 03: Dados de um Evento
+
+Um organizador de eventos deseja criar um sistema para registrar os
+seguintes dados de um evento: o nome do evento, o número de
+
+participantes esperados, o preço do ingresso e se o evento será
+presencial.
+
+ Quais variáveis você criaria para representar essas informações?
+  nome_evento: nome do evento
+  num_participantes: número de participantes
+  preco_ingreco: preco do ingreco
+  evento_presencial: indica se sera presencial
+ Que tipos de dados você usaria para cada variável?
+  nome_evento: string
+  num_participantes: inteiro(int)
+  preco_ingreco: ponto flutuante (float)
+  evento_presencial:booleano(bool)
